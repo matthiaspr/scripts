@@ -13,6 +13,6 @@ foreach ($line in $content) # Iterate through every User
 	{
 		$Sam = $currentMailbox.SamAccountName
 		New-MailboxExportRequest -Name $Sam -Mailbox $currentMailbox -FilePath \\<server FQDN>\<shared folder name>\<PST name>.pst
-	  # "-Name $Sam" in order to easily identify the later MailboxExportRequest
+	  	# "-Name $Sam" in order to easily identify the later MailboxExportRequest
   }
 }
