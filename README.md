@@ -1,2 +1,2 @@
 # scripts
-Scripts for all kind of stuff, mostly for Windows environments (Powershell).
+Scripts for all kinds of stuff, mostly for Windows server environments (Powershell).
